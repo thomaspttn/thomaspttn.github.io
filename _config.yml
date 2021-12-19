@@ -32,7 +32,7 @@ twitter_username: thomaspttn
 github_username:  thomaspttn
 
 # Build settings
-theme: no-style-please
+remote_theme: no-style-please
 plugins:
   - jekyll-feed
 
