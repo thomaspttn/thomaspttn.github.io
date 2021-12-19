@@ -13,7 +13,7 @@ i'm currently in the process of applying for my master's degree. my primary rese
 i currently live in Boston, MA. feel free to reach out using any of the links below.
 
 ## links
-* [resume](res5.pdf)
+* [resume](assets/res5.pdf)
 * [email](mailto:tjpatton1@gmail.com)
 * [linkedin](https://www.linkedin.com/in/thomas-patton-281901152/)
 * [google scholar](https://scholar.google.co.uk/citations?hl=en&user=Ksj2yQcAAAAJ)
@@ -30,4 +30,4 @@ i currently live in Boston, MA. feel free to reach out using any of the links be
 <br><br/>
 
 
-<img src="me.jpg" alt="drawing" width="400"/>
+<img src="assets/me.jpg" alt="drawing" width="400"/>
