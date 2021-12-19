@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 
-title: Your awesome title
-email: your-email@example.com
+title: thomas patton
+email: tjpatton1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -28,13 +28,20 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: thomaspttn.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://thomaspttn.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: thomaspttn
+github_username:  thomaspttn
 
 # Build settings
-theme: minima
+theme: no-style-please
 plugins:
   - jekyll-feed
+
+
+theme_config:
+  appearance: "light"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
 # Exclude from processing.
 # The following items will not be processed, by default.
