@@ -10,8 +10,6 @@ my name is Thomas Patton, i'm currently a machine learning engineer at [Cohere H
 
 my primary interest lies in writing the software that drives machine learning APIs. in the future i hope to write the low-level code that allows novel ML models to be easily accessible to others. if you know of a role that might fit this description don't hesitate to reach out below.
 
-outside of work i enjoy rock climbing and good coffee.
-
 ## links
 * [resume](assets/res5.pdf)
 * [email](mailto:tjpatton1@gmail.com)
@@ -30,4 +28,4 @@ outside of work i enjoy rock climbing and good coffee.
 <br><br/>
 
 
-<img src="assets/me.jpg" alt="drawing" width="400"/>
+<img src="assets/IMG_4619.jpg" alt="drawing" width="400"/>
