@@ -6,9 +6,9 @@ layout: default
 ---
 
 ## about
-my name is Thomas Patton, i'm currently a machine learning engineer at [Cohere Health](https://coherehealth.com/). prior to that i worked as a software engineering intern at NASA and as a research intern at the CCIPD. you can read the paper i co-authored with the latter [here](https://jitc.bmj.com/content/9/Suppl_2/A44). this fall i will be attending Cornell University to get my masters in computer science.
+my name is Thomas Patton, i'm currently a Masters student at Cornell Univeresity studying computer science. prior to that i worked as a machine learning engineer at [Cohere Health](https://coherehealth.com/). 
 
-my primary interest lies in writing the software that drives machine learning APIs. in the future i hope to write the low-level code that allows novel ML models to be easily accessible to others. if you know of a role that might fit this description don't hesitate to reach out below.
+my primary career interest lies in writing software that makes machine learning accessible to others. as deep learning models become increasingly complex i hope to create APIs that enable others to access these models quickly and easily.
 
 ## links
 * [resume](assets/res5.pdf)
