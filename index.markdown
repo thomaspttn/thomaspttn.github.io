@@ -8,7 +8,7 @@ layout: default
 ## about
 my name is Thomas Patton, i'm currently a Masters student at Cornell Univeresity studying computer science. prior to that i worked as a machine learning engineer at [Cohere Health](https://coherehealth.com/). 
 
-my primary career interest lies in writing software that makes machine learning accessible to others. as deep learning models become increasingly complex i hope to create APIs that enable others to access these models quickly and easily.
+my primary career interest lies in writing machine learning software. if you know of a role that might fit this description, don't hesitate to reach out below.
 
 ## links
 * [resume](assets/res5.pdf)
