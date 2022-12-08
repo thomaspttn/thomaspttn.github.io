@@ -20,6 +20,7 @@ outside of work i enjoy lifting weights, drinking cheap coffee, and practicing p
 * [github](https://github.com/thomaspttn)
 
 ## projects
+* [assistive feeding robots](https://www.youtube.com/watch?v=YkBCLAD-M74&ab_channel=EmPRISELab)
 * [ai-generated monet paintings](https://github.com/thomaspttn/dcgan)
 * [quickdraw cnn](https://github.com/thomaspttn/quickdrawcnn)
 * [privacy-preserving linear regression](https://github.com/thomaspttn/privlinreg)
