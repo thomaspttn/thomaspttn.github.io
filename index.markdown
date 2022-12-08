@@ -31,4 +31,4 @@ outside of work i enjoy lifting weights, drinking cheap coffee, and practicing p
 <br><br/>
 
 
-<img src="assets/IMG_4619.jpg" alt="drawing" width="400"/>
+<img src="assets/IMG_4410.jpg" alt="drawing" width="400"/>
