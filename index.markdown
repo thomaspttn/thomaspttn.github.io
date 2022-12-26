@@ -10,7 +10,7 @@ my name is Thomas Patton, i'm currently a Masters student at Cornell Univeresity
 
 right now i'm really interested in working in applied ML. i'd rather use a model someone else built to solve an interesting problem than to build the model myself. if you know of any roles that match this description, don't hesitate to reach out below.
 
-outside of work i enjoy lifting weights, drinking cheap coffee, and practicing piano. if anything i've said sparks your interest don't hesitate to reach out below.
+outside of work i enjoy lifting weights, drinking cheap coffee, and practicing piano. 
 
 ## links
 * [resume](assets/res5.pdf)
