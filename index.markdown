@@ -6,7 +6,7 @@ layout: default
 ---
 
 ## about
-my name is Thomas Patton, i'm currently a Masters student at Cornell Univeresity studying computer science. i'm currently working in the [EmPRISE Lab](https://emprise.cs.cornell.edu/) to incorporate ML into assistive feeding robots. prior to this i worked as a machine learning engineer at [Cohere Health](https://coherehealth.com/) and as a software engineering intern at NASA. 
+my name is Thomas Patton, i'm currently a Masters student at Cornell University studying computer science. i'm currently working in the [EmPRISE Lab](https://emprise.cs.cornell.edu/) to incorporate ML into assistive feeding robots. prior to this i worked as a machine learning engineer at [Cohere Health](https://coherehealth.com/) and as a software engineering intern at NASA. 
 
 right now i'm really interested in working in applied ML. i'd rather use a model someone else built to solve an interesting problem than to build the model myself. if you know of any roles that match this description, don't hesitate to reach out below.
 
