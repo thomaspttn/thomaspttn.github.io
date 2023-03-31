@@ -1,81 +1,65 @@
 <!DOCTYPE html>
 <html>
-
-<title>
-    thomas patton
-</title>
-
-<head>
-    <style type="text/css">
-        p {
+  <head>
+    <title>about | thomas patton</title>
+    <style>
+    p {
             font-family: 'Courier New', Courier, monospace;
-        }
+    }
 
-        h1 {
+    h1 {
             font-family: Georgia, 'Times New Roman', Times, serif;
-        }
+    }
 
-        a {
+    a {
             font-family: 'Courier New', Courier, monospace;
-        }
-
-        .imgdiv {
-            float: left;
-            width: 25%;
-            margin-right: 75px;
-            margin-top: 20px;
-            overflow: hidden;
-        }
-
-        .textdiv {
-            float: left;
-            width: 50%;
-            margin: 10px;
-            overflow: hidden;
-        }
+    }
+    
+      /* Set the width of the container to be 100% of the viewport */
+      .container {
+        width: 100%;
+        display: flex; /* Use flexbox layout to achieve vertical thirds */
+      }
+      
+      /* Set the width of the left and middle thirds to be 33.33% */
+      .left, .middle {
+        width: 33.33%;
+      }
+      
+      /* Set the width of the right third to be 33.33% and hide any content inside */
+      .right {
+        width: 33.33%;
+        display: none;
+      }
+      
+      /* Set the image to justify to the right boundary of the left division */
+      .left img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        object-position: right;
+      }
+      
+      /* Set the text to justify to the left of the middle division */
+      .middle p {
+        text-align: left;
+        margin-left: 20px;
+      }
+      
     </style>
-</head>
-
-<body>
-    <div class="imgdiv">
-        <img src="assets/IMG_4410.jpeg" alt="drawing" height="700" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="assets/IMG_4410.jpeg" alt="me">
+      </div>
+      <div class="middle">
+        <p>hello, my name is Thomas Patton. i'm currently a masters of computer science student at Cornell University where i work in the <a href="https://emprise.cs.cornell.edu/">EmPRISELab</a> to incorporate machine learning into assistive feeding robots. after graduation i'm heading to <a href="https://www.modalai.com/">ModalAI</a> to work on computer vision problems in lightweight drones.</p>
+        <p> my career interest is probably best defined as the intersection of applied ml and robotics. i'd rather use a model someone else built to solve an interesting challenge than to build the model myself. i've also developed an interest in robots through my graduate education. i love the difficult and unique challenges that come with implementing algorithms into sensitive real-world systems.</p>
+        <p>outside of work i enjoy lifting weights, drinking cheap coffee, and playing piano.</p>
+      </div>
+      <div class="right"></div>
     </div>
-    <div class="textdiv", align="left">
-        <h1> about </h1>
-        <p>
-            <!-- fix lang here -->
-            my name is Thomas Patton, i'm currently a computer science masters student at Cornell University.
-            i'm currently working in the <a href="https://emprise.cs.cornell.edu/">EmPRISELab</a> to incorporate ML into assistive feeding robots. prior to this i worked as a machine learning engineer at <a href="https://coherehealth.com/">Cohere Health</a> and as a software engineering intern at NASA. after graduation, i'm going to be working on robots at <a href="https://www.modalai.com/">ModalAI</a>.
-
-            <br></br>
-
-            my career interest is probably best defined as applied ml. i'd rather use a model someone else built to solve an interesting challenge than to build the model myself. i've also developed an interest in robots through my graduate education. i love the difficult and unique challenges that come with implementing algorithms into sensitive real-world systems.
-
-            <br></br>
-
-            outside of work i enjoy lifting weights, drinking cheap coffee, and playing piano.
-        </p>
-
-        <h1>links</h1>
-        <ul>
-            <li> <a href="assets/res5.pdf">resume</a> </li>
-            <li> <a href="mailto:tjpatton1@gmail.com">email</a> </li>
-            <li> <a href="https://www.linkedin.com/in/thomas-patton-281901152/">linkedin</a> </li>
-            <li> <a href="https://scholar.google.co.uk/citations?hl=en&user=Ksj2yQcAAAAJ">google scholar</a> </li>
-            <li> <a href="https://github.com/thomaspttn">github</a> </li>
-        </ul>
-
-        <h1>projects</h1>
-        <ul>
-            <li> <a href="https://www.youtube.com/watch?v=YkBCLAD-M74&ab_channel=EmPRISELab">assistive feeding
-                    robots</a></li>
-            <li> <a href="https://github.com/thomaspttn/dcgan">ai-generated monet paintings</a></li>
-            <li> <a href="https://github.com/thomaspttn/quickdrawcnn">quickdraw cnn</a></li>
-            <li> <a href="https://github.com/thomaspttn/privlinreg">privacy-preserving linear regression </a></li>
-            <li> <a href="https://github.com/thpthp1/NewsNeuralizer">fake news classifier</a></li>
-        </ul>
-    </div>
-
-</body>
-
+  </body>
 </html>
