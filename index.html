@@ -1,92 +1,58 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>about | thomas patton</title>
-    <style>
-    p {
-            font-family: 'Courier New', Courier, monospace;
-    }
-
-    h1 {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    a {
-            font-family: 'Courier New', Courier, monospace;
-    }
-
-      /* Set the width of the container to be 100% of the viewport */
-      .container {
-        width: 100%;
-        display: flex; /* Use flexbox layout to achieve vertical thirds */
-      }
-      
-      /* Set the width of the left and middle thirds to be 33.33% */
-      .left, .middle {
-        width: 33.33%;
-        margin-right: 20px;
-      }
-      
-      /* Set the width of the right third to be 33.33% and hide any content inside */
-      .right {
-        width: 33.33%;
-        display: none;
-      }
-      
-      /* Set the image to justify to the right boundary of the left division */
-      .left img {
-        width: 100%;
-        height: auto;
-        display: block;
-        object-fit: cover;
-        object-position: right;
-      }
-      
-      /* Set the text to justify to the left of the middle division */
-      .middle p {
-        text-align: left;
-        margin-left: 20px;
-      }
-      
-    </style>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thomas Patton</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
   <body>
-    <div class="container">
-      <div class="left">
-        <img src="assets/IMG_4410.jpeg" alt="me">
-      </div>
-      <div class="middle">
-        <h1>about</h1>
+        <div class="container">
+  <div class="header">
+    <div class="name">Thomas Patton</div>
+    <div class="links">
+                    <a href="#about">Resume</a> 
+                    <a href="#projects">Github</a> 
+                    <a href="#contact">LinkedIn</a>
+    </div>
+  </div>
+    <hr></hr>
+        <h2>01 About</h2>
         <p>
-          hello, my name is Thomas Patton and i'm currently a software engineer at <a href="https://www.modalai.com">ModalAI</a>. i primarily write embedded computer vision code for our SDK but also help out with a number of different projects related to autonomy. 
+          Hello! My name is Thomas and I'm currently a Senior Software Engineer at <a href="https://www.modalai.com">ModalAI</a>. My work there primarily focuses on machine learning, computer vision, and state estimation.
         </p>
         <p>
-          i've also done work for the <a href="https://emprise.cs.cornell.edu/">EmPRISE Lab</a>, <a href="https://www.coherehealth.com">Cohere Health</a>, and NASA's Glenn Research Center. i received my masters and bachelors in computer science from Cornell University and Case Western Reserve Unviersity respectively.
+            If you're curious about some of the stuff I've done, read below or check out my Resume.
+        </p>
+        <h2>02 Engineering</h2>
+        <p>
+            I really like building things that work well. Here are a few things that I've built...
+        </p>
+            <h3>... for work</h3>
+                <li><a href=https://www.youtube.com/watch?v=A-oHqC7Zh9w&ab_channel=ThomasPatton>A hardware-accelerated visual feature tracker designed to run on lightweight drones</a></li>
+                <li><a href=https://www.linkedin.com/in/thomaspttn/>NLP models to help automate the prior authorization process</a></li>
+            <li><a href=https://www1.grc.nasa.gov/space/iss-research/international-space-station/space-software-tool/>Graphics software for NASA to visualize shadowing on the ISS's solar panels</a></li>
+            <h3>... for research</h3>
+            <li><a href=https://www.youtube.com/watch?v=YkBCLAD-M74&ab_channel=EmPRISELab>A segmentation model to help a robotic arm recognize different food items</a></li>
+            <li><a href=https://www.proquest.com/openview/5ff16b628fe92dfe4f452d25b565ea5d/1?pq-origsite=gscholar&cbl=2040222>A model to predict how patients would respond to lung cancer therapy based on the shape of their lungs</a></li>
+            <h3>... for fun</h3>
+            <li><a href=https://github.com/thomaspttn/nvim-docker>A setup tool to run Neovim inside of Docker containers</a></li>
+            <li><a href=https://github.com/thomaspttn/rustform>A mini tool to make it easier to view the feedback Google Forms</a></li>
+            <li><a href=https://thomaspatton.substack.com/>A blog to write about the things I can't stop thinking about</a></li>
+            <li><a href=https://configure.zsa.io/voyager/layouts/o5W4r/latest/0>A keyboard setup to preserve my joints</a></li>
+        </p>
+        <h2>04 Other</h2>
+        <p>
+            In my free time I find myself...
         </p>
         <p>
-          i currently live in San Diego and spend most of my free time lifting weights, drinking cheap coffee, and being bad at pickleball. if you're in the area and want to connect, don't hesitate to reach out.
+            <li>Being exceptionally medicore at calisthenics</li>
+            <li>Being even more mediocre at pickleball</li>
+            <li>Playing piano as I've done for two decades</li>
+            <li>Enjoying cheap coffee more than the expensive stuff</li>
         </p>
-
-        <h1>links</h1>
-        <ul>
-            <li> <a href="assets/res5.pdf">resume</a> </li>
-            <li> <a href="mailto:tjpatton1@gmail.com">email</a> </li>
-            <li> <a href="https://www.linkedin.com/in/thomas-patton-281901152/">linkedin</a> </li>
-            <li> <a href="https://scholar.google.co.uk/citations?hl=en&user=Ksj2yQcAAAAJ">google scholar</a> </li>
-            <li> <a href="https://github.com/thomaspttn">github</a> </li>
-        </ul>
-
-        <h1>projects</h1>
-        <ul>
-            <li> <a href="https://www.youtube.com/watch?v=YkBCLAD-M74&ab_channel=EmPRISELab">assistive feeding
-                    robots</a></li>
-            <li> <a href="https://github.com/thomaspttn/dcgan">ai-generated monet paintings</a></li>
-            <li> <a href="https://github.com/thomaspttn/quickdrawcnn">quickdraw cnn</a></li>
-            <li> <a href="https://github.com/thomaspttn/privlinreg">privacy-preserving linear regression </a></li>
-            <li> <a href="https://github.com/thpthp1/NewsNeuralizer">fake news classifier</a></li>
-        </ul>
-      </div>
-      <div class="right"></div>
+    <footer class="footer">
+      © 2024 Thomas Patton. All rights reserved.
+    </footer>
     </div>
   </body>
 </html>
