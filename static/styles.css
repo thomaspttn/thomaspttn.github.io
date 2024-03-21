@@ -25,30 +25,10 @@ body {
     padding: 20px; /* Padding around content */
 }
 
-.container .header {
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-}
-
-.container .header .name {
-  font-size: 24px; /* Adjust the font size as needed */
-  font-weight: bold;
-  flex: 1;
-}
-
-.container .header .links a {
-  text-decoration: underline; /* No underline */
-}
-
-/* Right justify the links within their container */
-.container .header .links {
-  text-align: right;
-  flex: 1;
-}
 
 /* Additional styling for headers for a bit of distinction without bolding */
 h1 {
+    color: #456943; 
     font-weight: normal;
     font-size: 16px; /* Larger for main headers */
     margin: 20px 0; /* Space out headers */
@@ -60,6 +40,14 @@ h2 {
 }
 
 h3 {
+    font-size: 14px; /* Larger for main headers */
+    font-weight: normal;
+}
+
+h4 {
+    margin-top: 40px; /* Add space above the footer */
+    font-weight: normal;
+    text-align: center; /* Center the footer text */
     font-size: 14px; /* Larger for main headers */
 }
 
@@ -76,7 +64,7 @@ li em {
 
 /* Style for links for a minimal but noticeable look */
 a {
-    color: black; /* Blue link color */
+    color: #456943; 
     text-decoration: underline; /* No underline */
 }
 
@@ -86,7 +74,7 @@ a:hover {
 
 .footer {
   text-align: center; /* Center the footer text */
-  margin-top: 80px; /* Add space above the footer */
+  margin-top: 20px; /* Add space above the footer */
   padding: 20px 0; /* Padding inside the footer */
   font-size: 14px; /* Smaller font size for the footer */
   color: #000; /* Footer text color, already defined but can be adjusted */
