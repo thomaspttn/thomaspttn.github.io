@@ -69,12 +69,12 @@ a {
 }
 
 a:hover {
-    text-decoration: underline; /* Underline on hover for clarity */
+    color: #456943; 
 }
 
 .footer {
   text-align: center; /* Center the footer text */
-  margin-top: 20px; /* Add space above the footer */
+  margin-top: 10px; /* Add space above the footer */
   padding: 20px 0; /* Padding inside the footer */
   font-size: 14px; /* Smaller font size for the footer */
   color: #000; /* Footer text color, already defined but can be adjusted */
