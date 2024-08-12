@@ -1,2 +1,2 @@
 # Personal Website
-Redirects to https://alwayscod.ing
+Redirects to https://patton.sh
