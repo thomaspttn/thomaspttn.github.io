@@ -1,83 +1,149 @@
-@font-face {
-    font-family: 'CommitMono';
-    src: url('/fonts/CommitMonoV143/CommitMono-400-Regular.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
+:root {
+    --bg0:      #ffffff;
+    --bg2:      #f2f2f2;
+    --bg3:      #e5e5e5;
+    --bg-visual:#d9e3d4;
+    --fg:       #000000;
+    --grey0:    #999999;
+    --grey1:    #666666;
+    --green:    #456943;
 }
 
+@font-face {
+    font-family: 'CommitMono';
+    src: url('/fonts/CommitMonoV143/CommitMono-400-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CommitMono';
+    src: url('/fonts/CommitMonoV143/CommitMono-400-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CommitMono';
+    src: url('/fonts/CommitMonoV143/CommitMono-700-Regular.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
 body {
-    background: #ffffff; /* Soft gray background */
-    color: #000; /* Darker text for better contrast */
-    font-family: "CommitMono", monospace;
+    background: var(--bg0);
+    color: var(--fg);
+    font-family: "CommitMono", ui-monospace, "SF Mono", "Menlo", monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 14px; /* Increase base font size for better readability */
-    line-height: 1.5; /* Increase line height for better readability */
+    font-size: 15px;
+    line-height: 1.7;
     font-feature-settings: "ss01", "ss03", "ss04", "ss05";
-    overflow-x: hidden; /* Only prevent horizontal overflow */
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
 
+::selection {
+    background: var(--bg-visual);
+    color: var(--fg);
+}
+
 .container {
-    max-width: 800px; /* Max width for content */
-    margin: 0 auto; /* Center the content */
-    padding: 20px; /* Padding around content */
+    max-width: 880px;
+    margin: 0 auto;
+    padding: clamp(28px, 6vw, 72px) 24px 48px;
+    animation: fade-in 0.5s ease both;
 }
 
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: none; }
+}
 
-/* Additional styling for headers for a bit of distinction without bolding */
+/* shell-prompt heading */
 h1 {
-    color: #456943; 
-    font-weight: normal;
-    font-size: 16px; /* Larger for main headers */
-    margin: 20px 0; /* Space out headers */
+    color: var(--green);
+    font-weight: 700;
+    font-size: 17px;
+    margin: 0 0 28px;
+    letter-spacing: 0.02em;
 }
 
-h2 {
-    font-size: 14px; /* Larger for main headers */
-    margin: 20px 0; /* Space out headers */
-}
+h2 { font-size: 15px; font-weight: 700; margin: 24px 0 8px; }
 
+/* section markers: rendered like inline comments */
 h3 {
-    font-size: 14px; /* Larger for main headers */
-    font-weight: normal;
+    color: var(--grey1);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 32px 0 6px;
+}
+
+h3::before {
+    content: "# ";
+    color: var(--grey0);
 }
 
 h4 {
-    margin-top: 40px; /* Add space above the footer */
-    font-weight: normal;
-    text-align: center; /* Center the footer text */
-    font-size: 14px; /* Larger for main headers */
+    margin-top: 48px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    color: var(--grey1);
 }
 
-/* Style for the section lists */
+p { margin: 14px 0; }
+
 ul {
-    list-style-type: none; /* Remove default list bullets */
-    padding-left: 0; /* Align with the above header */
+    list-style-type: none;
+    padding-left: 1.4em;
+    margin: 6px 0;
 }
 
-/* Italicize dates - if not done directly in HTML */
-li em {
-    font-style: italic; /* Ensure dates are italicized */
+li {
+    position: relative;
+    margin: 5px 0;
 }
 
-/* Style for links for a minimal but noticeable look */
+li::before {
+    content: "›";
+    position: absolute;
+    left: -1.4em;
+    color: var(--grey0);
+}
+
+li em { font-style: italic; color: var(--grey1); }
+
 a {
-    color: #456943; 
-    text-decoration: underline; /* No underline */
+    color: var(--fg);
+    text-decoration: none;
+    border-bottom: 1px solid var(--bg3);
+    transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 a:hover {
-    color: #456943; 
+    color: var(--green);
+    border-bottom-color: var(--green);
 }
+
+h1 a { color: var(--green); border-bottom-color: transparent; }
 
 .footer {
-  text-align: center; /* Center the footer text */
-  margin-top: 10px; /* Add space above the footer */
-  padding: 20px 0; /* Padding inside the footer */
-  font-size: 14px; /* Smaller font size for the footer */
-  color: #000; /* Footer text color, already defined but can be adjusted */
-  width: 100%; /* Ensure the footer spans the width of the page */
+    text-align: center;
+    margin-top: 40px;
+    padding: 24px 0 0;
+    font-size: 13px;
+    color: var(--grey0);
+    width: 100%;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .container { animation: none; }
+    h1::after { animation: none; }
+}
