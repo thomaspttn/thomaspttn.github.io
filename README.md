@@ -1,3 +1,2 @@
 # Personal Website
-Redirects to https://patton.sh
-
+Static site for https://patton.sh. Plain HTML/CSS, served by GitHub Pages from `gh-pages`.
